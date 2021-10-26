@@ -46,7 +46,8 @@ import { getMetadataTamperer } from "./utils/saml";
 
 // assertion consumer service express handler
 export type AssertionConsumerServiceT = (
-  userPayload: unknown
+  userPayload: unknown,
+  req: express.Request
 ) => Promise<
   // tslint:disable-next-line: max-union-size
   | IResponseErrorInternal
@@ -135,7 +136,7 @@ const withSpidAuthMiddleware = (
         );
         return res.redirect(clientLoginRedirectionUrl);
       }
-      const response = await acs(user);
+      const response = await acs(user, req);
       response.apply(res);
     })(req, res, next);
   };
