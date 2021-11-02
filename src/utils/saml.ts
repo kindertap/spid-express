@@ -241,7 +241,7 @@ const getAuthSalmOptions = (
             .map(authLevel => {
               return {
                 authnContext,
-                forceAuthn: authLevel !== "SpidL1"
+                forceAuthn: true // authLevel !== "SpidL1"
               };
             })
             .orElse(() => {
