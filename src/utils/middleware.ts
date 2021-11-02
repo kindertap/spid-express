@@ -56,6 +56,7 @@ export interface IServiceProviderConfig {
   spidValidatorUrl?: string;
   IDPMetadataUrl: string;
   organization: IServiceProviderOrganization;
+  serviceProviderType: string;
   contactPersonOther: IServiceProviderContactPersonOther;
   contactPersonBilling: IServiceProviderContactPersonBilling;
   publicCert: string;

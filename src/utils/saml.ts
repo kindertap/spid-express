@@ -538,7 +538,7 @@ export const getMetadataTamperer = (
           // tslint:disable-next-line: object-literal-sort-keys
           RequestedAttribute: getSpidAttributesMetadata(serviceProviderConfig)
         };
-        if (process.env.SERVICE_PROVIDER_TYPE === "private") {
+        if (process.env.SERVICE_PROVIDER_TYPE === "private" || serviceProviderConfig.serviceProviderType === "private") {
           // tslint:disable-next-line: no-object-mutation
           o.EntityDescriptor = {
             ...o.EntityDescriptor,
