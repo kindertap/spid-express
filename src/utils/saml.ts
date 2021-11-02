@@ -222,7 +222,7 @@ const getAuthSalmOptions = (
       lookup(authLevel, SPID_LEVELS)
         .map(authnContext => ({
           authnContext,
-          forceAuthn: authLevel !== "SpidL1"
+          forceAuthn: true // authLevel !== "SpidL1"
         }))
         .orElse(() => {
           logger.error(
