@@ -63,6 +63,7 @@ const serviceProviderConfig: IServiceProviderConfig = {
     displayName: process.env.ORG_DISPLAY_NAME,
     name: process.env.ORG_NAME
   },
+  serviceProviderType: "public",
   contactPersonOther: {
     vatNumber: process.env.CONTACT_PERSON_OTHER_VAT_NUMBER,
     fiscalCode: process.env.CONTACT_PERSON_OTHER_FISCAL_CODE,
