@@ -1,13 +1,15 @@
 export const SPID_IDP_IDENTIFIERS = {
+  "https://id.eht.eu": "etnaid",
   "https://id.lepida.it/idp/shibboleth": "lepidaid",
   "https://identity.infocert.it": "infocertid",
   "https://identity.sieltecloud.it": "sielteid",
   "https://idp.namirialtsp.com/idp": "namirialid",
   "https://login.id.tim.it/affwebservices/public/saml2sso": "timid",
   "https://loginspid.aruba.it": "arubaid",
+  "https://loginspid.infocamere.it": "infocamereid",
   "https://posteid.poste.it": "posteid",
-  "https://spid.intesa.it": "intesaid",
-  "https://spid.register.it": "spiditalia"
+  "https://spid.register.it": "spiditalia",
+  "https://spid.teamsystem.com/idp": "teamsystemid"
 };
 
 export const CIE_IDP_IDENTIFIERS = {
