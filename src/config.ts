@@ -9,7 +9,7 @@ export const SPID_IDP_IDENTIFIERS = {
   "https://loginspid.infocamere.it": "infocamereid",
   "https://posteid.poste.it": "posteid",
   "https://spid.register.it": "spiditalia",
-  "https://spid.teamsystem.com/idp": "teamsystemid"
+  "https://spid.teamsystem.com/idp": "teamsystemid",
   "https://idp.intesigroup.com": "intesigroup"
 };
 
