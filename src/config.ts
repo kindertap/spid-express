@@ -10,6 +10,7 @@ export const SPID_IDP_IDENTIFIERS = {
   "https://posteid.poste.it": "posteid",
   "https://spid.register.it": "spiditalia",
   "https://spid.teamsystem.com/idp": "teamsystemid"
+  "https://idp.intesigroup.com": "intesigroup"
 };
 
 export const CIE_IDP_IDENTIFIERS = {
